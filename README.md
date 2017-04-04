@@ -145,11 +145,20 @@ Basa dusmusem amma yaza bilmeyecem.
 ### 15. Can you name two programming paradigms important for JavaScript app developers?
 JavaScript cox paradigmali dildi . OOP ve functionalla birlikde imperative paradigmani da destekleyir.
 ### 16. What is functional programming?
+Funksional proqramlasdirma hesablamalari riyazi funksiyalarin komeyile eden ve mutable(deyisdirile bilen) datadan uzaq duran bir programming paradigmdir.
 ### 17. What is the difference between classical inheritance and prototypal inheritance?
+--- Oxudum basa dusmedim.
 ### 18. What are the pros and cons of functional programming vs object-oriented programming?
+---
 ### 19. When is classical inheritance an appropriate choice?
+---
 ### 20. When is prototypal inheritance an appropriate choice?
+---
 ### 21. What does “favor object composition over class inheritance” mean?
+---
 ### 22. What are two-way data binding and one-way data flow, and how are they different?
+---
 ### 23. What are the pros and cons of monolithic vs microservice architectures?
+Onu basa dusdum ki, Monolithic tek, bir yerde architecture demekdir, microservice ise funksiyalarina, tipine gore ferqli isler goren hisselerin architecturasi demekdir.
 ### 24. What is asynchronous programming, and why is it important in JavaScript?
+Eyni anda bir nece prosesin getmesi ucun istifade olunur. Kontrol axisini(control flow) nizamlayir.
