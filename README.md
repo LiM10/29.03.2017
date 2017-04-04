@@ -22,22 +22,22 @@ console.log(a == b); // true
 console.log(a === b); // false
  ```
 ### 6. What datatypes are supported in Javascript?
-1)Boolean:
+* Boolean:
 true ve false.
-2)Null
+* Null
 Null ozu obyektdir.
  ```javascript
 var a = null;
 console.log(typeof a); // object
 consoel.log(a); // null
  ```
-3)Undefined:
+* Undefined:
 Eger deyisen teyin edib ona deyer vermirikse bize undefined qaytaracaq. Bu deyisen mueyyen bir yer tutur(JavaScriptde 'sonsuz' deye deye bilerik), yeni ancaq flagler qoyulur. 
-4)Number:
+* Number:
 Musbet, menfi, onluq kesr ve s. butun ededler daxildir. 
-5)String:
+* String:
 "" ve ya '' yazilir. 
-6)Symbol:
+* Symbol:
 ECMASCRIPT6da yeni datatypedi. Meselen:
  ```javascript
 var name = Symbol("Emrah");
@@ -68,7 +68,7 @@ console.log(qrup[name]);
 // Ismayilzade
  ```
 Burda "Emrah"i da vermis olacaqdi.
-7)Object:
+* Object:
 Hemise deyirsiz muellim: 'Javascriptde her sey obyektdir'. Array, date, function hamisi obyektdir. Obyekt vars demeli propertysi de var.
 ### 7. What would “1”+2+3 and 1+2+“3” evaluate to, respectively?
  ```javascript
@@ -87,17 +87,17 @@ console.log(a+b+c); // 33
 Eger ilk deyisen stringdirse, ondan sonra gelenleri de string kimi goturecek. Yoxsa connector kimi davranacaq.
 ### 8. Explain the concept of unobtrusive Javascript?
 3 esas prinsipe boolmek olar: 
-1.index.html-de js kodu yazma, ancaq js faylinda yaz.
-2.Her js kodu oz loacl scope-unda run olsun. Belelikle qarisiqliq olmayacaq.
-3.Browsera uygun kod yazma standart her browserda istifade ede bileceyin kod yaz.
+* index.html-de js kodu yazma, ancaq js faylinda yaz.
+* Her js kodu oz loacl scope-unda run olsun. Belelikle qarisiqliq olmayacaq.
+* Browsera uygun kod yazma standart her browserda istifade ede bileceyin kod yaz.
 ### 9. What is the difference between a null value and an undefined value?
-Null ozu obyektdir.
+* Null ozu obyektdir.
  ```javascript
 var a = null;
 console.log(typeof a); // object
 consoel.log(a); // null
  ```
-Undefined:
+* Undefined:
 Eger deyisen teyin edib ona deyer vermirikse bize undefined qaytaracaq. Bu deyisen mueyyen bir yer tutur(JavaScriptde 'sonsuz' deye deye bilerik), yeni ancaq flagler qoyulur.
 ### 10. Which conditional statements will JavaScript support?
 if, else, else if, switch.
